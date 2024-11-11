@@ -1,0 +1,68 @@
+/*this is a comment*/
+/*P format*/
+h1 {
+	text-transform: uppercase;
+}
+p {
+	color: red;
+	text-align: center;
+	font-family: Arial, san-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+b, i, small {
+	color: blue;
+	font-size: 20px;
+	text-align: left;
+} 
+
+.myClass {
+	text color: orange;
+	font-size: 20px;
+}
+
+.myStyle {
+	background-color: beige;
+}
+
+.myHeader {
+	background-color: skyblue;
+	color: purple;
+}
+
+.firstDiv p {
+	color: green;
+	text-align: left;
+	text-indent: 50px;
+}
+
+p.setP {
+	color: violet;
+	background-color: yellow;
+}
+
+a:link {
+	color: blueviolet;
+}
+
+a:hover {
+	color: green;
+}
+
+a:active {
+	color: blue;
+}
+
+a:visited {
+	color: orange;
+}
+
+#para1 {
+	text-align: center;
+	color: red;
+}
+
+body {
+	background-image: url("bg.png");
+}

@@ -1,0 +1,23 @@
+p {
+	color: green;
+	text-decoration: underline;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	padding-left: 130px;
+	
+}
+h2 {
+	color: red;
+	text-decoration: underline dotted blue;
+	font-size: larger;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	padding-left: 230px;
+}
+h3 {
+	color: gray;
+	text-decoration: underline double violet;
+    padding-top: 50px;
+	padding-bottom: 30px;
+	padding-left: 360px;
+}

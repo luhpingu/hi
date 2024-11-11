@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+		table, th, td {
+		border: 1px solid black;
+		border-spacing: 10px; <!--cell spacing is the space between each cell or table cell 
+		or this is for the border spacing meaning the space between 2 or more borders-->
+		}
+		th, td {
+		padding: 10px; <!--cell padding is the space between the cell edges and the cell content 
+		or this is to give more space in the box itself-->
+		}
+		
+		<title>Page 4</title>
+		<link rel="icon" type="image/x-icon" href="penguin.png"> <!--idk why its not working but it shows an icon beside the title-->
+	</style>
+	</head>
+	
+	<body>
+		<table border="1">
+			<caption> List of Fruits </caption>
+			<tr> <!--Row 1-->
+				<th> Fruit </th> <!--Column 1 and th makes the text bold and center  align-->
+				<th> Color </th> <!--Column 2-->
+			</tr>
+			<tr> <!--Row 2-->
+				<td> Apple </td> <!--Column 1-->
+				<td> Red </td> <!--Column 2-->
+			</tr>
+		</table>
+		
+		<br><br>
+		
+		<table border="1">
+			<tr>
+				<td colspan="2"> Colors </td> <!--colspan merges columns, since we placed 2 it is going
+				to merge column  1 and 2 for row 1-->
+			</tr>
+			<tr>
+				<td> Red </td> 
+				<td> Green </td>
+			</tr>
+		</table>
+		
+		<br><br>
+		
+		<table border="1">
+			<tr>
+				<td rowspan="2"> Colors </td> <!--rowspan merges rows, since we placed 2 it is going
+				to merge row  1 and 2 in column 1-->
+				<td> Red </td>
+			</tr>
+			<tr>
+				<td> Green </td>
+			</tr>
+		</table>
+		
+		<br><br>
+		
+		<table border="1">
+			<tr>
+				<th colspan="6"> LUZON </th>
+			</tr>
+			
+			<tr>
+				<td> Makati </td>
+				<td> Aurora </td>
+				<td> Tarlac </td>
+				<td> Cavite </td>
+				<td> Isabela </td>
+				<td> Zambales </td>
+			</tr>
+			
+			<tr>
+				<th colspan="3"> VISAYAS </th>
+				<th colspan="3"> MINDANAO </th>
+			</tr>
+			
+			<tr>
+				<td> Cebu </td>
+				<td> Negros </td>
+				<td> Bohol </td>
+				<td> Cagayan </td>
+				<td> Gen San </td>
+				<td> Davao </td>
+			</tr>
+			
+			<tr>
+				<td> Siquijor </td>
+				<td> Leyte </td>
+				<td> Samar </td>
+				<td> Basilan </td>
+				<td> Zamboanga </td>
+				<td> Agusan </td>
+		</table>
+		
+	<!--div is to group elements as a whole while span groups elements in a line-->
+	<div>
+		<p> this is a paragraph </p>
+		<b> this is bold </b>
+		<u> this is underline </u>
+		<p> end of first div </p>
+	</div>
+	
+	<div>
+		<p> this is a paragraph </p>
+		<b> this is bold </b>
+		<u> this is underline </u>
+		<p> end of second div </p>
+	</div>
+	
+	<span>
+		<b> this is span </b>
+		<u> this is span </u>
+	</span>
+	
+	<!--Multimedia: sound, video, animation-->
+	<marquee behavior="slide" direction="left"> this is a marquee text </marquee>
+	
+	<img src="crazy-snow-white-crazy.gif">
+	</body>
+</html>
